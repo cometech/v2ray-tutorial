@@ -465,6 +465,7 @@ rules:
 # (Music)
 # > Deezer
 # USER-AGENT,Deezer*,🌍 国外媒体
+- DOMAIN-SUFFIX,linkedin.com,🌍 国外媒体
 - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
 - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
 # > KKBOX
@@ -1599,7 +1600,6 @@ rules:
 - DOMAIN-SUFFIX,keepcdn.com,DIRECT
 - DOMAIN-SUFFIX,kkmh.com,DIRECT
 - DOMAIN-SUFFIX,licdn.com,DIRECT
-- DOMAIN-SUFFIX,linkedin.com,DIRECT
 - DOMAIN-SUFFIX,loli.net,DIRECT
 - DOMAIN-SUFFIX,luojilab.com,DIRECT
 - DOMAIN-SUFFIX,maoyan.com,DIRECT
