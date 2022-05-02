@@ -156,7 +156,7 @@ proxies:
 proxy-groups:
 
 # url-test 通过指定的 URL 测试并选择延迟最低的节点
-- name: "自动选择快速节点"
+- name: "♻️ 自动选择"
   type: url-test
   proxies:
     - "ss"
@@ -193,7 +193,7 @@ proxy-groups:
 - name: "🚀 节点选择"
   type: select
   proxies:
-    - "自动选择快速节点"
+    - "♻️ 自动选择"
     - "ss"
     # - "ss-obfs"
     # - "ss-v2ray"
